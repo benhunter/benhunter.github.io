@@ -1,5 +1,5 @@
 ---
-title: moar renames to moor
+title: moar or moor
 pubDate: '2025-08-19'
 ---
 # Modern pager
