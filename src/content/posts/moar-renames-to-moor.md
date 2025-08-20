@@ -1,6 +1,6 @@
 ---
 title: moar or moor
-pubDate: '2025-08-19'
+pubDate: '2025-08-18'
 ---
 # Modern pager
 
