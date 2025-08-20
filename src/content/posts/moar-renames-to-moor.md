@@ -16,5 +16,11 @@ But this time, a warning flashed: `moar` would soon be renamed to `moor`.
 
 The name was already great, right? `moar` is clever and funny. Digging into why this familiar utility was changing, it turns out that Debian already has a package with a binary named `moar`. Debian and derivative linux distros like Ubuntu do not allow packages to publish a binary with the same name. So, in order to get `moar` into the `apt` package repositories, it would be simpler to rename the tool completely.[^2]
 
+## Don't forget
+
+```
+export PAGER=$(which moor)
+```
+
 [^1]: moor on GitHub: https://github.com/walles/moor really long 
 [^2]: Pull request to change the name: https://github.com/walles/moor/pull/305
