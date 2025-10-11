@@ -12,29 +12,38 @@ CIA
 
 # Strategies
 
-Threat Modeling
-- Red Teaming, what can an adversary do?
-- Insider Threats
-- Social Engineering
-- Attack Surface
+Three strategies for understanding Cybersecurity:
+- threat-based
+- risk-based
+- systems-based
 
-Risk Management
+## Threat Modeling
+
+- Red Teaming. What can an adversary do?
+- Insider Threats. Usually worst case scenario, hard to detect. Attacker wants to hijack real accounts and become the insider.
+- Attack Surface. Where are we exposed?
+- Social Engineering. People are often the weak link.
+
+## Risk Management
+
 - Assessment
 - Authorization
 - Compliance
 
-Systems Engineering
+## Systems Engineering
+
 - Data
 - Users
 - Software
 - Hardware
 - Network
-- Understand the system. What is in it, how they interact.
+
+Understand the system. What is in it, how they interact.
 
 Systems include
 - Data - category, classification, types
-- Users - Roles, Permissions, Administrators/Privileged/Root/Super
-- Software - Where did it come from? Supply chain, who made it, what does it do? how is it configured?
+- Users - roles, permissions, administrators/privileged/root/super
+- Software - where did it come from? supply chain, who made it, what does it do? how is it configured?
 - Hardware - inventory, physical access, supply chain, cloud/IaaS
 - Network - Ports, Protocols, Services (PPSM)
 
@@ -103,7 +112,8 @@ Who is allowed to access what?
 Examples of who:
 - a person
 - a computer
-- an identity delegated to person or computer
+- an identity, role, or group
+- could be delegated to person or computer
 
 Access Control patterns
 - Passwords
@@ -129,28 +139,37 @@ Access Control patterns
 
 # Risk Management Framework
 
-- Every system must be Assessed
-- Every system must be Authorized
-- Authority to Operate
-- System is defined by a boundary and what is in it
-	- Information types
-	- Who can access
-	- What components
-	- Connections. In/out, relationships with other systems
-	- Sound familiar? This is restatement of the Systems Engineering Strategy: Data, Users, Software, Hardware, Network
-- Controls - The safeguards or countermeasures prescribed for an information system or an organization to protect the confidentiality, integrity, and availability of the system and its information.
-	- 20 control families
-	- around 1200 unique controls
-	- Inheritance makes this manageable
-	- Control selection prioritizes which controls to implement
-	- Control assessment determines whether a control is implemented
-- Risk Assessment
-	- Threat
-	- Impact
-	- Likelihood
-- STIG = Secure Technical Implementation Guide
-	- Standardizes the questions to ask during Assessment
-	- Maps directly to the controls 
+Every system must be Assessed and Authorized. An Authority to Operate (ATO) specifies the controls that must be implemented.
+
+System is defined by a boundary and what is in it.
+
+- Information types
+- Who can access
+- What components
+- Connections. In/out, relationships with other systems
+
+Sound familiar? This is restatement of the Systems Engineering Strategy: understand Data, Users, Software, Hardware, Network
+
+Controls are the safeguards or countermeasures prescribed for an information system or an organization to protect the confidentiality, integrity, and availability of the system and its information.
+
+- 20 control families
+- around 1200 unique controls
+- Control selection prioritizes which controls to implement
+- Control assessment determines whether a control is implemented
+- Inheritance makes this manageable
+- Informally, a control, simply asks a question.
+
+Risk Assessment
+
+- Threat
+- Impact
+- Likelihood
+
+STIG
+
+- Secure Technical Implementation Guides (STIG)
+- Standardizes the questions to ask during Assessment
+- Maps directly to the controls
 
 # Scenarios
 
