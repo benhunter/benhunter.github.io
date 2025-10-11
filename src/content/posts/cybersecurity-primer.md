@@ -3,12 +3,19 @@ title: Cybersecurity Primer
 pubDate: '2025-10-11'
 ---
 
+
+# How to Think About Cybersecurity
+
+Cybersecurity is a broad discipline full of jargon and opaque terms. This Primer helps practitioners think holistically about security.
+
 # Security Objectives 
 
 CIA
 - Confidentiality
 - Integrity
 - Availability
+
+The CIA triad is the foundational concept for all cybersecurity.
 
 # Strategies
 
