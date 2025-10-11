@@ -2,34 +2,59 @@
 title: Cybersecurity Primer
 pubDate: '2025-10-11'
 ---
-
-
 # How to Think About Cybersecurity
 
-Cybersecurity is a broad discipline full of jargon and opaque terms. This Primer helps practitioners think holistically about security.
+Cybersecurity is a broad discipline full of jargon and opaque terms. This Primer helps practitioners think holistically about security. Instead of defining every term, the goal is to establish relationships between concepts. This becomes a framework for thinking.
+
+Along the way we ask questions to enrich understanding.
 
 # Security Objectives 
 
 CIA
+
 - Confidentiality
 - Integrity
 - Availability
 
 The CIA triad is the foundational concept for all cybersecurity.
 
+Ask
+
+- Who is allowed access to information?
+- Has information been modified?
+- Can the service be used when needed?
+
 # Strategies
 
 Three strategies for understanding Cybersecurity:
+
 - threat-based
 - risk-based
 - systems-based
 
+Ask
+
+- What will the adversary do?
+- What risk can we accept?
+- How is the system designed?
+
 ## Threat Modeling
 
-- Red Teaming. What can an adversary do?
-- Insider Threats. Usually worst case scenario, hard to detect. Attacker wants to hijack real accounts and become the insider.
-- Attack Surface. Where are we exposed?
-- Social Engineering. People are often the weak link.
+Red Teaming
+
+- What can an adversary do?
+
+Insider Threats
+
+- Usually worst case scenario, hard to detect. Attacker wants to hijack real accounts and become the insider.
+
+Attack Surface
+
+- Where are we exposed?
+
+Social Engineering
+
+- People are often the weak link.
 
 ## Risk Management
 
@@ -47,7 +72,8 @@ Three strategies for understanding Cybersecurity:
 
 Understand the system. What is in it, how they interact.
 
-Systems include
+Systems include:
+
 - Data - category, classification, types
 - Users - roles, permissions, administrators/privileged/root/super
 - Software - where did it come from? supply chain, who made it, what does it do? how is it configured?
@@ -187,7 +213,7 @@ STIG
 - New service in cloud account
 - New platform in cloud
 - New system on tactical hardware
-- New plugin to ATAK
+- New plugin to an application
 
 Techniques
 - Identify risks
