@@ -214,7 +214,7 @@ STIG
 - New application deployed
 - New service in cloud account
 - New platform in cloud
-- New system on tactical hardware
+- New system on mobile hardware
 - New plugin to an application
 
 Techniques
