@@ -28,9 +28,9 @@ Ask
 
 Three strategies for understanding Cybersecurity:
 
-- threat-based
-- risk-based
-- systems-based
+- Threat-based
+- Risk-based
+- Systems-based
 
 Ask
 
