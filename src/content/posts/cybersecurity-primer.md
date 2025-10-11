@@ -174,6 +174,8 @@ Access Control patterns
 
 Every system must be Assessed and Authorized. An Authority to Operate (ATO) specifies the controls that must be implemented.
 
+Assessment is control assessment. Is a control implemented? Prove it, trace it, don't make assumptions.
+
 System is defined by a boundary and what is in it.
 
 - Information types
@@ -192,7 +194,7 @@ Controls are the safeguards or countermeasures prescribed for an information sys
 - Inheritance makes this manageable
 - Informally, a control, simply asks a question.
 
-Risk Assessment
+Risk Assessment (not Control Assessment)
 
 - Threat
 - Impact
