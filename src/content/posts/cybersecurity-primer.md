@@ -207,7 +207,7 @@ STIG
 # Scenarios
 
 - New data type added to an application
-- New user personal added to an application
+- New role added to an application
 - New network connection from an application
 - New application deployed
 - New service in cloud account
