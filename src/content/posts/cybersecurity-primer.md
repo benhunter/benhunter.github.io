@@ -4,13 +4,13 @@ pubDate: '2025-10-11'
 ---
 # How to Think About Cybersecurity
 
-Cybersecurity is a broad discipline full of jargon and opaque terms. This Primer helps practitioners think holistically about security. Instead of defining every term, the goal is to establish relationships between concepts. This becomes a framework for thinking.
+This primer helps practitioners think holistically about cybersecurity. 
+
+Cybersecurity is a broad discipline full of jargon and opaque terms. Instead of defining every term, the goal is to establish relationships between concepts. This becomes a framework for thinking.
 
 Along the way we ask questions to enrich understanding.
 
 # Security Objectives 
-
-CIA
 
 - Confidentiality
 - Integrity
