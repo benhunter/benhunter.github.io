@@ -8,14 +8,14 @@ updates:
       interval: 'weekly'
       day: 'monday'
       time: '09:00'
-      timezone: 'Asia/Shanghai'
+      timezone: 'UTC'
     # Limit the number of open PRs created by Dependabot
     open-pull-requests-limit: 10
     # Allow automatic merging of non-major version updates
     allow:
       - dependency-type: 'all'
     assignees:
-      - 'the3ash'
+      - 'benhunter'
     commit-message:
       # Use 'deps' for production dependencies, 'dev' for development dependencies
       prefix: 'deps'
@@ -39,10 +39,10 @@ updates:
       interval: 'weekly'
       day: 'monday'
       time: '09:00'
-      timezone: 'Asia/Shanghai'
+      timezone: 'UTC'
     open-pull-requests-limit: 10
     assignees:
-      - 'the3ash'
+      - 'benhunter'
     commit-message:
       prefix: 'github-actions'
       include: 'scope'
