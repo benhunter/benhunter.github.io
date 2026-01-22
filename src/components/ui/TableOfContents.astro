@@ -326,7 +326,7 @@ const { toc = [] }: TOCProps = Astro.props
     letter-spacing: var(--spacing-m);
     line-height: 1.125rem;
     color: var(--text-primary);
-    opacity: 0;
+    opacity: 0.5;
     transition:
       opacity 0.2s ease-out,
       left 0.2s ease-out;
@@ -355,6 +355,7 @@ const { toc = [] }: TOCProps = Astro.props
 
   .toc-link.active {
     color: var(--text-primary);
+    opacity: 1;
   }
 
   /* Horizontal line indicators */
