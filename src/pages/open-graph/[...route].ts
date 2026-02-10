@@ -11,7 +11,7 @@ const pages = Object.fromEntries(
   collectionEntries.map(({ id, data }) => [id.replace(/\.(md|mdx)$/, ''), data])
 )
 
-export const { getStaticPaths, GET } = OGImageRoute({
+const ogImageRoute = await OGImageRoute({
   param: 'route',
   pages,
   getImageOptions: (_path, page) => ({
@@ -47,3 +47,11 @@ export const { getStaticPaths, GET } = OGImageRoute({
     ]
   })
 })
+
+export async function getStaticPaths() {
+  return ogImageRoute.getStaticPaths()
+}
+
+export async function GET(context: Parameters<typeof ogImageRoute.GET>[0]) {
+  return ogImageRoute.GET(context)
+}
