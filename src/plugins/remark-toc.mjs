@@ -13,12 +13,6 @@ export default function remarkTOC() {
       // Only process h1, h2, h3
       if (level > 3) return
 
-      // Skip the first h1
-      if (level === 1 && headingIndex === 0) {
-        headingIndex++
-        return
-      }
-
       const text = extractTextContent(node)
       if (!text) return
 

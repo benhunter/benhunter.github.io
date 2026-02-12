@@ -16,10 +16,18 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<'posts'>
 
 const post = Astro.props
-const { Content, remarkPluginFrontmatter } = await render(post)
+const { Content, headings, remarkPluginFrontmatter } = await render(post)
 
 const readingTime = remarkPluginFrontmatter.readingTime
-const toc = remarkPluginFrontmatter.toc || []
+const tocFromHeadings = (headings || [])
+  .filter((heading) => heading.depth <= 3)
+  .map((heading, index) => ({
+    level: heading.depth,
+    text: heading.text,
+    id: heading.slug,
+    index
+  }))
+const toc = tocFromHeadings.length ? tocFromHeadings : remarkPluginFrontmatter.toc || []
 ---
 
 <PostLayout {...post.data} readingTime={readingTime} toc={toc}>

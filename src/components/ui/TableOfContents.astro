@@ -90,12 +90,10 @@ const { toc = [] }: TOCProps = Astro.props
       if (!state.headings?.length) return
 
       const scrollTop = window.pageYOffset
-      state.positions = Array.from(state.headings)
-        .filter((_, index) => !(index === 0 && state.headings[0].tagName === 'H1'))
-        .map((heading) => ({
-          id: heading.id,
-          offsetTop: heading.getBoundingClientRect().top + scrollTop
-        }))
+      state.positions = Array.from(state.headings).map((heading) => ({
+        id: heading.id,
+        offsetTop: heading.getBoundingClientRect().top + scrollTop
+      }))
     }
 
     // Adjust TOC position
