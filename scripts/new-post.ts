@@ -45,8 +45,10 @@ pubDate: '${new Date().toISOString().split('T')[0]}'
 try {
   writeFileSync(fullPath, content)
   if (isDraft) {
+    // eslint-disable-next-line no-console
     console.log(`📝 Draft created: ${fullPath}`)
   } else {
+    // eslint-disable-next-line no-console
     console.log(`✅ Post created: ${fullPath}`)
   }
 } catch (error) {
