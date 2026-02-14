@@ -5,7 +5,7 @@ pubDate: '2025-08-19'
 
 `uv`[^1] rapidly disrupted the Python package management space, showing that innovation is still possible in well established ecosystems - as long as it solves a real pain point.
 
-[^1]: uv, https://github.com/astral-sh/uv - An extremely fast Python package and project manager, written in Rust. 
+[^1]: uv, https://github.com/astral-sh/uv - An extremely fast Python package and project manager, written in Rust.
 
 # Use uv in an existing project
 

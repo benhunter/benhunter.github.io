@@ -2,6 +2,7 @@
 title: moar or moor
 pubDate: '2025-08-18'
 ---
+
 # Modern pager
 
 `moar`[^1] is command line replacement for the venerable tools `less` and `more`. These tools are known as pagers - they take a stream of text input and show it one page at a time, allowing you to read, scroll up and down, or even search through the text.
@@ -22,5 +23,6 @@ The name was already great, right? `moar` is clever and funny. Digging into why 
 export PAGER=$(which moor)
 ```
 
-[^1]: moor on GitHub: https://github.com/walles/moor really long 
+[^1]: moor on GitHub: https://github.com/walles/moor really long
+
 [^2]: Pull request to change the name: https://github.com/walles/moor/pull/305

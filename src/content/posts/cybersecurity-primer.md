@@ -2,15 +2,16 @@
 title: Cybersecurity Primer
 pubDate: '2025-10-11'
 ---
+
 # How to Think About Cybersecurity
 
-This primer helps practitioners think holistically about cybersecurity. 
+This primer helps practitioners think holistically about cybersecurity.
 
 Cybersecurity is a broad discipline full of jargon and opaque terms. Instead of defining every term, the goal is to establish relationships between concepts. This becomes a framework for thinking.
 
 Along the way we ask questions to enrich understanding.
 
-# Security Objectives 
+# Security Objectives
 
 - Confidentiality
 - Integrity
@@ -85,6 +86,7 @@ Systems include:
 Security is rarely provable in a formal, mathematical way.
 
 You are convincing someone else that your system is secure enough. Or someone has to convince you that the system is secure enough.
+
 - meet a specific goal (like a STIG item)
 - address some known risk
 - overall posture is acceptable
@@ -98,10 +100,10 @@ You are convincing someone else that your system is secure enough. Or someone ha
 - Defense in Depth
 - Separation of Duties
 - Fail safe
-	- Deny by default
-	- Allow list
-	- Redundancy, replication
-	- Denial of Service
+  - Deny by default
+  - Allow list
+  - Redundancy, replication
+  - Denial of Service
 - Secure by Design
 - Simple (economy of mechanism)
 - Usable
@@ -111,20 +113,20 @@ You are convincing someone else that your system is secure enough. Or someone ha
 # Concepts
 
 - Identity
-	- Identity Provider
-	- Authentication
-	- Authorization
+  - Identity Provider
+  - Authentication
+  - Authorization
 - Security boundary, Authorization boundary
 - Non-repudiation - proof someone did something
 - Trust - Considered risky, be skeptical, always verify
 - Zero-Trust - verify every action
 - Inheritance - a stack of security objectives where one component depends on another
 - Encryption
-	- Data in transit
-	- Data at rest
-	- Data in process
-	- Hashing
-	- Signatures
+  - Data in transit
+  - Data at rest
+  - Data in process
+  - Hashing
+  - Signatures
 - Read versus Write
 
 # Access Control
@@ -132,23 +134,25 @@ You are convincing someone else that your system is secure enough. Or someone ha
 Who is allowed to access what?
 
 - how do we enforce it?
-	- Identity > Authentication > Authorization
-	- Business rules
-	- Encryption
+  - Identity > Authentication > Authorization
+  - Business rules
+  - Encryption
 - how do we know it's working?
-	- Audit logs
+  - Audit logs
 - how do we know when it's not?
-	- Testing, Automated test (unit, integration, etc), Penetration Tests
+  - Testing, Automated test (unit, integration, etc), Penetration Tests
 - what are they allowed to do?
-	- Read, Write
+  - Read, Write
 
 Examples of who:
+
 - a person
 - a computer
 - an identity, role, or group
 - could be delegated to person or computer
 
 Access Control patterns
+
 - Passwords
 - Key, token, secret. Sometimes API is put in front of it. These are all just passwords.
 - OAuth
@@ -156,7 +160,7 @@ Access Control patterns
 - Kerberos
 - PKI
 - Permissions models
-	- Role Based (RBAC)
+  - Role Based (RBAC)
 
 # Change Management
 
@@ -218,15 +222,16 @@ STIG
 - New plugin to an application
 
 Techniques
+
 - Identify risks
 - Build threat model
 - Map attack surface
 - Design defenses
 - Apply security controls
 
-|Risk|Impact|Likelihood|Controls, Mitigations|
-|-|-|-|-|
-| | | | |
+| Risk | Impact | Likelihood | Controls, Mitigations |
+| ---- | ------ | ---------- | --------------------- |
+|      |        |            |                       |
 
 # Links
 

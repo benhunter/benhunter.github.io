@@ -72,7 +72,7 @@ async function fixRelativeImagePaths(
               format: 'webp',
               width: 800
             })
-            
+
             // Always use the optimized image path in production
             img.setAttribute('src', new URL(processedImage.src, baseUrl).toString())
           }
