@@ -17,6 +17,7 @@ permissions:
   contents: write
   pull-requests: write
   checks: read
+  actions: write
 
 jobs:
   validate:
@@ -101,6 +102,7 @@ jobs:
           intervalSeconds: 10
 
       - name: Auto merge
+        id: auto-merge
         if: steps.wait-for-checks.outputs.conclusion == 'success'
         uses: actions/github-script@v8
         with:
@@ -119,4 +121,17 @@ jobs:
               merge_method: 'squash',
               commit_title: pullRequest.title,
               commit_message: pullRequest.body || ''
+            });
+
+      - name: Trigger deploy after auto-merge
+        if: steps.auto-merge.conclusion == 'success'
+        uses: actions/github-script@v8
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'deploy.yaml',
+              ref: 'main'
             });
