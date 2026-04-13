@@ -104,7 +104,7 @@ jobs:
       - name: Auto merge
         id: auto-merge
         if: steps.wait-for-checks.outputs.conclusion == 'success'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
@@ -125,7 +125,7 @@ jobs:
 
       - name: Trigger deploy after auto-merge
         if: steps.auto-merge.conclusion == 'success'
-        uses: actions/github-script@v8
+        uses: actions/github-script@v9
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
