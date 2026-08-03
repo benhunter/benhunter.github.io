@@ -27,8 +27,8 @@ importers:
         specifier: ^6.4.8
         version: 6.4.8(@netlify/blobs@10.7.11)(@types/node@26.1.2)(jiti@2.7.0)(lightningcss@1.33.0)(rollup@4.62.2)(tsx@4.23.1)(yaml@2.9.0)
       astro-og-canvas:
-        specifier: ^0.12.0
-        version: 0.12.0(astro@6.4.8(@netlify/blobs@10.7.11)(@types/node@26.1.2)(jiti@2.7.0)(lightningcss@1.33.0)(rollup@4.62.2)(tsx@4.23.1)(yaml@2.9.0))
+        specifier: ^0.13.0
+        version: 0.13.0(astro@6.4.8(@netlify/blobs@10.7.11)(@types/node@26.1.2)(jiti@2.7.0)(lightningcss@1.33.0)(rollup@4.62.2)(tsx@4.23.1)(yaml@2.9.0))
       canvaskit-wasm:
         specifier: ^0.41.1
         version: 0.41.1
@@ -1979,8 +1979,8 @@ packages:
     resolution: {integrity: sha512-+QDcgc7e+au6EZ0YjMmRRjNoQo5bDMlaR45aWDoFsuxQTCM9qmCHRoiKJPELgckJ8Wmr7vcfpa9eCDHBFh6G4w==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  astro-og-canvas@0.12.0:
-    resolution: {integrity: sha512-XqbChMkPZvBV0jxu3i9hapgYK3gSjO1+MFBq060w+NT9k1XL+BYjdcQ80ZZs45r6+EASgIYmlqjEL7zfLD9T7A==}
+  astro-og-canvas@0.13.0:
+    resolution: {integrity: sha512-jcIDhE9OGIbd7LstZQ4CyzOpbbEKAlxJqEgdkVu6r26m7yJKlQjKysszfDxlox717cnCLPXKivyFjsufcq8sYA==}
     peerDependencies:
       astro: ^5.0.0 || ^6.0.0 || ^7.0.0
 
@@ -7275,7 +7275,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  astro-og-canvas@0.12.0(astro@6.4.8(@netlify/blobs@10.7.11)(@types/node@26.1.2)(jiti@2.7.0)(lightningcss@1.33.0)(rollup@4.62.2)(tsx@4.23.1)(yaml@2.9.0)):
+  astro-og-canvas@0.13.0(astro@6.4.8(@netlify/blobs@10.7.11)(@types/node@26.1.2)(jiti@2.7.0)(lightningcss@1.33.0)(rollup@4.62.2)(tsx@4.23.1)(yaml@2.9.0)):
     dependencies:
       astro: 6.4.8(@netlify/blobs@10.7.11)(@types/node@26.1.2)(jiti@2.7.0)(lightningcss@1.33.0)(rollup@4.62.2)(tsx@4.23.1)(yaml@2.9.0)
       canvaskit-wasm: 0.41.1
