@@ -4790,10 +4790,6 @@ packages:
   tiny-inflate@1.0.3:
     resolution: {integrity: sha512-pkY1fj1cKHb2seWDy0B16HeWyczlJA9/WW3u3c4z/NiWDsO3DOU5D7nhTLE9CF0yXv/QZFY7sEJmj24dK+Rrqw==}
 
-  tinyclip@0.1.14:
-    resolution: {integrity: sha512-F1oWdz8tjT17qe1d5JgDK6z03WGOhYYAN0lK3/D/fzNiy93xswLLEw7pk+3g05onhAy6Bsc6PLNUGhdgVjemMQ==}
-    engines: {node: ^16.14.0 || >= 17.3.0}
-
   tinyclip@0.1.15:
     resolution: {integrity: sha512-uo33abH+Ays0xYaDysoBt494Hb3hsEczMpcC0MwFl773pazORx4fmvKhclhR1wonUbB6vvpRsvVMwnhfqeMc+A==}
     engines: {node: ^16.14.0 || >= 17.3.0}
@@ -7355,7 +7351,7 @@ snapshots:
       shiki: 4.2.0
       smol-toml: 1.7.0
       svgo: 4.0.1
-      tinyclip: 0.1.14
+      tinyclip: 0.1.15
       tinyexec: 1.2.4
       tinyglobby: 0.2.17
       ultrahtml: 1.6.0
@@ -10926,8 +10922,6 @@ snapshots:
   text-hex@1.0.0: {}
 
   tiny-inflate@1.0.3: {}
-
-  tinyclip@0.1.14: {}
 
   tinyclip@0.1.15: {}
 
