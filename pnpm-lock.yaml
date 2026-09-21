@@ -4512,10 +4512,6 @@ packages:
   sass-formatter@0.7.9:
     resolution: {integrity: sha512-CWZ8XiSim+fJVG0cFLStwDvft1VI7uvXdCNJYXhDvowiv+DsbD1nXLiQ4zrE5UBvj5DWZJ93cwN0NX5PMsr1Pw==}
 
-  sax@1.6.0:
-    resolution: {integrity: sha512-6R3J5M4AcbtLUdZmRv2SygeVaM7IhrLXu9BmnOGmmACak8fiUtOsYNWUS4uK7upbmHIBbLBeFeI//477BKLBzA==}
-    engines: {node: '>=11.0.0'}
-
   sax@1.6.1:
     resolution: {integrity: sha512-42tBVwLWnaQvW5zc4HbZrTuWccECCZfBi92FDuwtqxasH+JbPB3/FOKb1m222K42R4WxuxzzMsTswfzgtSu64Q==}
     engines: {node: '>=11.0.0'}
@@ -10488,8 +10484,6 @@ snapshots:
     dependencies:
       suf-log: 2.5.3
 
-  sax@1.6.0: {}
-
   sax@1.6.1: {}
 
   semver@6.3.1: {}
@@ -10808,7 +10802,7 @@ snapshots:
       css-what: 6.2.2
       csso: 5.0.5
       picocolors: 1.1.1
-      sax: 1.6.0
+      sax: 1.6.1
 
   svgo@4.0.2:
     dependencies:
@@ -11230,7 +11224,7 @@ snapshots:
 
   xml-js@1.6.11:
     dependencies:
-      sax: 1.6.0
+      sax: 1.6.1
 
   xml-naming@0.1.0: {}
 
