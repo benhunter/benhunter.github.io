@@ -1173,8 +1173,8 @@ packages:
     resolution: {integrity: sha512-zM9K17Qh7U6TiXBeJs8O3o3mnaIYkQ2x2Z55ARGqVYnOgVvB0nem9AZnp0IPGWfrI3Y0z5Y9grCc3Q6FJf3nBQ==}
     engines: {node: '>=20.6.1'}
 
-  '@netlify/open-api@2.57.0':
-    resolution: {integrity: sha512-hgJrSxfzr7ShaVACGr17Ci3a7Y7vO+a75Fwn9fNe2+1aIbVx4aVSLP3cv9Vv9yfy1JbW563AwcveBq9lr9KKzA==}
+  '@netlify/open-api@2.57.1':
+    resolution: {integrity: sha512-4YKcf35SKDp8N1JPw5cN/P0n/rJmVg8igL3UQUtAPIA9lBea6IigUknWRAXZEHhmXHAyR2ptiejSuQk+YFmlEA==}
     engines: {node: '>=14.8.0'}
 
   '@netlify/otel@6.0.6':
@@ -6042,7 +6042,7 @@ snapshots:
 
   '@netlify/api@15.1.2':
     dependencies:
-      '@netlify/open-api': 2.57.0
+      '@netlify/open-api': 2.57.1
       node-fetch: 3.3.2
       picoquery: 2.5.0
 
@@ -6267,7 +6267,7 @@ snapshots:
       - srvx
       - uploadthing
 
-  '@netlify/open-api@2.57.0': {}
+  '@netlify/open-api@2.57.1': {}
 
   '@netlify/otel@6.0.6(supports-color@7.2.0)':
     dependencies:
