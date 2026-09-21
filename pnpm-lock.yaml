@@ -1130,8 +1130,8 @@ packages:
     resolution: {integrity: sha512-B5qa6F0MjSddNzqcdavVmGjBCYsxhviRNhAxIvKF0igxzvLM5QWkn/bJlaxVWVgJ3fyZgtwrno4OXrMxOspMMw==}
     engines: {node: '>=20.6.1'}
 
-  '@netlify/config@25.2.3':
-    resolution: {integrity: sha512-1X4HFfC6y1gg1jg20FCt6HGkH4ifVfGrsNwe6tB3n3/t7QGM7Qje49EAhgn+EJHF0EoAF/xOiO4RG8CyWHhRyg==}
+  '@netlify/config@25.2.5':
+    resolution: {integrity: sha512-VqJeiQk2eZ9o3ls7C57e2TEalQdR2U3oLjI/Rlo9njU0l8bD3Cr6kBTU5shGIPQgeJVGU9rQLaX24Yd7WXrWVA==}
     engines: {node: '>=22.12.0'}
     hasBin: true
 
@@ -2239,9 +2239,9 @@ packages:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
 
-  chalk@5.6.2:
-    resolution: {integrity: sha512-7NzBL0rN6fMUW+f7A6Io4h40qQlG+xGmtMxfbnH/K7TAtt8JQWVQK+6g0UXKMeVJoyV5EkkNsErQ8pVD3bLHbA==}
-    engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
+  chalk@6.0.0:
+    resolution: {integrity: sha512-2uNTXIuTTxk7ciZgAU1BQcgnchcG0xXnrs6jzkQfj9SsRa9M2s5zE8WT96hS6KmG4MzWHSrvH43DF1m4XRkrFg==}
+    engines: {node: '>=22'}
 
   character-entities-html4@2.1.0:
     resolution: {integrity: sha512-1v7fgQRj6hnSwFpq1Eu0ynr/CDEw0rXo2B61qXrLNdHZmPKgb7fqS1a2JwF0rISo9q77jDI8VMEHoApn8qDoZA==}
@@ -2385,6 +2385,10 @@ packages:
     resolution: {integrity: sha512-p0SaNjrHOnQeR8/VnfGbmg9te2kfyYSQ7Sc/j/6DtPL3JQvKxmjO9TSjNFpujqV3vEYYBvNNvXSxzyksBWAx1Q==}
     engines: {node: '>=12.0.0'}
     deprecated: v4 is no longer maintained, upgrade to v5
+
+  cron-parser@5.10.1:
+    resolution: {integrity: sha512-pKRrRagItwk9rGIStcUyMxFX34x56zoX3KDf9HJ4ttwkXIK1qxK63EvXvEDmlxI9AdPJ+Y7TEKRftRlW5eSS7A==}
+    engines: {node: '>=18'}
 
   cross-spawn@7.0.6:
     resolution: {integrity: sha512-uV2QOWP2nWzsy2aMp8aRibhi9dlzF5Hgh5SHaB9OiTGEyDTiJJyx0uy51QXdyWbtAHNua4XJzUKca3OzKUd3vA==}
@@ -6121,13 +6125,13 @@ snapshots:
     dependencies:
       '@netlify/runtime-utils': 2.3.0
 
-  '@netlify/config@25.2.3':
+  '@netlify/config@25.2.5':
     dependencies:
       '@netlify/api': 15.1.2
       '@netlify/headers-parser': 10.1.1
       '@netlify/redirect-parser': 16.1.1
-      chalk: 5.6.2
-      cron-parser: 4.9.0
+      chalk: 6.0.0
+      cron-parser: 5.10.1
       deepmerge: 4.3.1
       dot-prop: 9.0.0
       execa: 8.0.1
@@ -6188,7 +6192,7 @@ snapshots:
     dependencies:
       '@netlify/ai': 0.4.4
       '@netlify/blobs': 10.7.13(supports-color@7.2.0)
-      '@netlify/config': 25.2.3
+      '@netlify/config': 25.2.5
       '@netlify/database-dev': 0.10.1
       '@netlify/dev-utils': 5.0.0
       '@netlify/edge-functions-dev': 1.0.24
@@ -7560,7 +7564,7 @@ snapshots:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
 
-  chalk@5.6.2: {}
+  chalk@6.0.0: {}
 
   character-entities-html4@2.1.0: {}
 
@@ -7670,6 +7674,10 @@ snapshots:
       readable-stream: 4.7.0
 
   cron-parser@4.9.0:
+    dependencies:
+      luxon: 3.7.2
+
+  cron-parser@5.10.1:
     dependencies:
       luxon: 3.7.2
 
