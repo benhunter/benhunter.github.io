@@ -1115,8 +1115,8 @@ packages:
     resolution: {integrity: sha512-B5qa6F0MjSddNzqcdavVmGjBCYsxhviRNhAxIvKF0igxzvLM5QWkn/bJlaxVWVgJ3fyZgtwrno4OXrMxOspMMw==}
     engines: {node: '>=20.6.1'}
 
-  '@netlify/config@25.2.5':
-    resolution: {integrity: sha512-VqJeiQk2eZ9o3ls7C57e2TEalQdR2U3oLjI/Rlo9njU0l8bD3Cr6kBTU5shGIPQgeJVGU9rQLaX24Yd7WXrWVA==}
+  '@netlify/config@25.2.6':
+    resolution: {integrity: sha512-wt9MUROv0B8QTnDC/+z3u1bO4Tw0o5JhbKQHoSA0eQUiA7PYPV0j/t4kbwWNqeOwM+U9FdFbelmQhpZrXYE6Fw==}
     engines: {node: '>=22.12.0'}
     hasBin: true
 
@@ -6028,7 +6028,7 @@ snapshots:
     dependencies:
       '@netlify/runtime-utils': 2.3.0
 
-  '@netlify/config@25.2.5':
+  '@netlify/config@25.2.6':
     dependencies:
       '@netlify/api': 15.1.2
       '@netlify/headers-parser': 10.1.1
@@ -6095,7 +6095,7 @@ snapshots:
     dependencies:
       '@netlify/ai': 0.4.4
       '@netlify/blobs': 10.7.13(supports-color@7.2.0)
-      '@netlify/config': 25.2.5
+      '@netlify/config': 25.2.6
       '@netlify/database-dev': 0.10.1
       '@netlify/dev-utils': 5.0.0
       '@netlify/edge-functions-dev': 1.0.24
