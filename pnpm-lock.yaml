@@ -3184,9 +3184,6 @@ packages:
     resolution: {integrity: sha512-brTTsvFRt5C1gGHtPst/281UjPD5t9fBqbgoMPlVWy11ZLTPfu7HxK4ZYqO9H7o/yC9rSTCI85EaQ4OoY12qYw==}
     engines: {node: '>= 4'}
 
-  image-meta@0.2.2:
-    resolution: {integrity: sha512-3MOLanc3sb3LNGWQl1RlQlNWURE5g32aUphrDyFeCsxBTk08iE3VNe4CwsUZ0Qs1X+EfX0+r29Sxdpza4B+yRA==}
-
   image-size@2.0.4:
     resolution: {integrity: sha512-QRUkFFsRV/6fuESxb9Vkq+a0LkSrgKXuc2NEqfikiXxxN/G3tjWt5EVUlMaImRBZRZK/jRBEbYvpPYZL8t08Zw==}
     engines: {node: '>=18'}
@@ -3225,8 +3222,8 @@ packages:
     resolution: {integrity: sha512-4gd7VpWNQNB4UKKCFFVcp1AVv+FMOgs9NKzjHKusc8jTMhd5eL1NqQqOpE0KzMds804/yHlglp3uxgluOqAPLw==}
     engines: {node: '>= 0.4'}
 
-  ipx@3.1.1:
-    resolution: {integrity: sha512-7Xnt54Dco7uYkfdAw0r2vCly3z0rSaVhEXMzPvl3FndsTVm5p26j+PO+gyinkYmcsEUvX2Rh7OGK7KzYWRu6BA==}
+  ipx@3.1.2:
+    resolution: {integrity: sha512-9RzTAiZ3wJwCGqqeSl1vCizRAfhT9S2cMWG/mOW4t7e7Hyyu3PoYS8+GRWLb75qo1pVgs5CQapwrXherEWDt3A==}
     hasBin: true
 
   iron-webcrypto@1.2.1:
@@ -6193,7 +6190,7 @@ snapshots:
 
   '@netlify/images@1.3.12(@netlify/blobs@10.7.13(supports-color@7.2.0))(@parcel/watcher@2.5.6)':
     dependencies:
-      ipx: 3.1.1(@netlify/blobs@10.7.13(supports-color@7.2.0))(@parcel/watcher@2.5.6)
+      ipx: 3.1.2(@netlify/blobs@10.7.13(supports-color@7.2.0))(@parcel/watcher@2.5.6)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -8662,8 +8659,6 @@ snapshots:
 
   ignore@7.0.9: {}
 
-  image-meta@0.2.2: {}
-
   image-size@2.0.4: {}
 
   import-fresh@3.3.1:
@@ -8695,7 +8690,7 @@ snapshots:
       hasown: 2.0.4
       side-channel: 1.1.1
 
-  ipx@3.1.1(@netlify/blobs@10.7.13(supports-color@7.2.0))(@parcel/watcher@2.5.6):
+  ipx@3.1.2(@netlify/blobs@10.7.13(supports-color@7.2.0))(@parcel/watcher@2.5.6):
     dependencies:
       '@fastify/accept-negotiator': 2.1.1
       citty: 0.1.6
@@ -8704,7 +8699,6 @@ snapshots:
       destr: 2.0.5
       etag: 1.8.1
       h3: 1.15.11
-      image-meta: 0.2.2
       listhen: 1.10.1(@parcel/watcher@2.5.6)
       ofetch: 1.5.1
       pathe: 2.0.3
