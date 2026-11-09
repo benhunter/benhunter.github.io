@@ -182,8 +182,8 @@ packages:
     resolution: {integrity: sha512-qehxGkRj55h/ff8EMaJ+cYhyaKlHIxqYDn682wQD7RNp9UujOQsHog2uS0r2vzr4pW+sXf90NeeayjcNaX3fFg==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/parser@7.29.12':
-    resolution: {integrity: sha512-WJ7JBp/Q4+z/ImydtI7jS6NVco5++632ExBemSX+Ysb+G1lCwQ5BVo3SY+jGGOcZXI4ZccbZSUSJLNBW6eEpJg==}
+  '@babel/parser@7.29.13':
+    resolution: {integrity: sha512-fJM50YYjlTiBhgdkGmC1tBpv+FMAyo4annf2X6Aks+0yRlaiVkYW/3f07xAfVVkYIoZ9fFZp+mEThUFnuybhkQ==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -5373,7 +5373,7 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.29.7': {}
 
-  '@babel/parser@7.29.12':
+  '@babel/parser@7.29.13':
     dependencies:
       '@babel/types': 7.29.11
 
@@ -6293,7 +6293,7 @@ snapshots:
 
   '@netlify/zip-it-and-ship-it@15.5.1(rollup@4.65.0)(supports-color@7.2.0)':
     dependencies:
-      '@babel/parser': 7.29.12
+      '@babel/parser': 7.29.13
       '@babel/types': 7.29.11
       '@netlify/binary-info': 1.0.0
       '@netlify/serverless-functions-api': 2.18.0
@@ -7024,7 +7024,7 @@ snapshots:
 
   '@vue/compiler-core@3.5.45':
     dependencies:
-      '@babel/parser': 7.29.12
+      '@babel/parser': 7.29.13
       '@vue/shared': 3.5.45
       entities: 7.0.1
       estree-walker: 2.0.2
@@ -7037,7 +7037,7 @@ snapshots:
 
   '@vue/compiler-sfc@3.5.45':
     dependencies:
-      '@babel/parser': 7.29.12
+      '@babel/parser': 7.29.13
       '@vue/compiler-core': 3.5.45
       '@vue/compiler-dom': 3.5.45
       '@vue/compiler-ssr': 3.5.45
@@ -9100,7 +9100,7 @@ snapshots:
 
   magicast@0.5.5:
     dependencies:
-      '@babel/parser': 7.29.12
+      '@babel/parser': 7.29.13
       '@babel/types': 7.29.11
       source-map-js: 1.2.2
 
@@ -9711,7 +9711,7 @@ snapshots:
 
   node-source-walk@7.0.2:
     dependencies:
-      '@babel/parser': 7.29.12
+      '@babel/parser': 7.29.13
 
   node-stream-zip@1.16.0: {}
 
