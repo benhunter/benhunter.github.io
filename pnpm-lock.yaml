@@ -1100,8 +1100,8 @@ packages:
     resolution: {integrity: sha512-bv89TwwLba2Fxiji2xIaolejd8qXqZNb5GZqqv1EKfYPNrVcgK2b8gSCH1cjVVxHN7rmhzxwmolbIx7ikZik0A==}
     engines: {node: '>=20.6.1'}
 
-  '@netlify/api@15.1.2':
-    resolution: {integrity: sha512-mwDpddsem/KJw0CDAKUBnzKsM9UUfgUgRntvL3yyOZ+L12amaXmj38T/1ndnxmRIx1rIJtfbq4eEzxloaniylA==}
+  '@netlify/api@15.1.6':
+    resolution: {integrity: sha512-tkB+OsnDyvMykt9QzSgebkNIJzsPFnGKj2PKVXapJenMXCAHFstUwGEaNzk7t14hz5MxSu5IqpDbk1q3MHLeLg==}
     engines: {node: '>=22.12.0'}
 
   '@netlify/binary-info@1.0.0':
@@ -6033,9 +6033,9 @@ snapshots:
 
   '@netlify/ai@0.4.4':
     dependencies:
-      '@netlify/api': 15.1.2
+      '@netlify/api': 15.1.6
 
-  '@netlify/api@15.1.2':
+  '@netlify/api@15.1.6':
     dependencies:
       '@netlify/open-api': 2.63.1
       node-fetch: 3.3.2
@@ -6057,7 +6057,7 @@ snapshots:
 
   '@netlify/config@25.2.6':
     dependencies:
-      '@netlify/api': 15.1.2
+      '@netlify/api': 15.1.6
       '@netlify/headers-parser': 10.1.1
       '@netlify/redirect-parser': 16.1.1
       chalk: 6.0.0
