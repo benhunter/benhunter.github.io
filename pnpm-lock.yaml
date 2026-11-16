@@ -3187,8 +3187,8 @@ packages:
     resolution: {integrity: sha512-brTTsvFRt5C1gGHtPst/281UjPD5t9fBqbgoMPlVWy11ZLTPfu7HxK4ZYqO9H7o/yC9rSTCI85EaQ4OoY12qYw==}
     engines: {node: '>= 4'}
 
-  image-size@2.0.4:
-    resolution: {integrity: sha512-QRUkFFsRV/6fuESxb9Vkq+a0LkSrgKXuc2NEqfikiXxxN/G3tjWt5EVUlMaImRBZRZK/jRBEbYvpPYZL8t08Zw==}
+  image-size@2.1.0:
+    resolution: {integrity: sha512-6Dbisa46RsgeAh3TMSFL2i8+uIFG+/LRmz6Q2oscSJJvXo1sOw3EgNO4M8jPl1P+gR1atJLDPrpclX4IHz63sA==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -6052,7 +6052,7 @@ snapshots:
       dot-prop: 9.0.0
       empathic: 2.1.0
       env-paths: 3.0.0
-      image-size: 2.0.4
+      image-size: 2.1.0
       js-image-generator: 1.0.4
       parse-gitignore: 2.0.0
       semver: 7.8.5
@@ -8660,7 +8660,7 @@ snapshots:
 
   ignore@7.0.9: {}
 
-  image-size@2.0.4: {}
+  image-size@2.1.0: {}
 
   import-fresh@3.3.1:
     dependencies:
