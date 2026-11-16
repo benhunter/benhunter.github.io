@@ -1115,8 +1115,8 @@ packages:
     resolution: {integrity: sha512-B5qa6F0MjSddNzqcdavVmGjBCYsxhviRNhAxIvKF0igxzvLM5QWkn/bJlaxVWVgJ3fyZgtwrno4OXrMxOspMMw==}
     engines: {node: '>=20.6.1'}
 
-  '@netlify/config@25.2.6':
-    resolution: {integrity: sha512-wt9MUROv0B8QTnDC/+z3u1bO4Tw0o5JhbKQHoSA0eQUiA7PYPV0j/t4kbwWNqeOwM+U9FdFbelmQhpZrXYE6Fw==}
+  '@netlify/config@25.6.2':
+    resolution: {integrity: sha512-pmDwas5me8vJXS/QodscQ+VxbPZRuFGnQfnakcd7p45STP+ChSM+XoMrBvhBLPNlkzMurt4YEg913p6tZLdc1w==}
     engines: {node: '>=22.12.0'}
     hasBin: true
 
@@ -2230,10 +2230,6 @@ packages:
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
     engines: {node: '>=10'}
-
-  chalk@6.0.0:
-    resolution: {integrity: sha512-2uNTXIuTTxk7ciZgAU1BQcgnchcG0xXnrs6jzkQfj9SsRa9M2s5zE8WT96hS6KmG4MzWHSrvH43DF1m4XRkrFg==}
-    engines: {node: '>=22'}
 
   character-entities-html4@2.1.0:
     resolution: {integrity: sha512-1v7fgQRj6hnSwFpq1Eu0ynr/CDEw0rXo2B61qXrLNdHZmPKgb7fqS1a2JwF0rISo9q77jDI8VMEHoApn8qDoZA==}
@@ -3656,10 +3652,6 @@ packages:
   magicast@0.5.5:
     resolution: {integrity: sha512-UicdXN8zQ3JHlxVq+28afMXPr1z7WNY6+7EJnzTdQWkTAlMLF5fNCCKxJHBQwGaNGR11581EiQmQzx73+MvszA==}
 
-  map-obj@5.0.2:
-    resolution: {integrity: sha512-K6K2NgKnTXimT3779/4KxSvobxOtMmx1LBZ3NwRxT/MDIR3Br/fQ4Q+WCX5QxjyUR8zg5+RV9Tbf2c5pAWTD2A==}
-    engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
-
   markdown-extensions@2.0.0:
     resolution: {integrity: sha512-o5vL7aDWatOTX8LzaS1WMoaoxIiLRQJuIKKe2wAw6IeULDHaqbiqiggmx+pKvZDb1Sj+pE46Sn1T7lCqfFtg1Q==}
     engines: {node: '>=16'}
@@ -4162,10 +4154,6 @@ packages:
   path-scurry@2.0.2:
     resolution: {integrity: sha512-3O/iVVsJAPsOnpwWIeD+d6z/7PmqApyQePUtCndjatj/9I5LylHvt5qluFaBT3I5h3r1ejfR056c+FCv+NnNXg==}
     engines: {node: 18 || 20 || >=22}
-
-  path-type@6.0.0:
-    resolution: {integrity: sha512-Vj7sf++t5pBD637NSfkxpHSMfWaeig5+DKWLhcqIYx6mWQz5hdJTGDVMQiJcw1ZYkhs7AazKDGpRVji1LJCZUQ==}
-    engines: {node: '>=18'}
 
   pathe@2.0.3:
     resolution: {integrity: sha512-WUjGcAqP1gQacoQe+OBJsFA7Ld4DyXuUIjZ5cc75cLHvJ7dtNsTugphxIADwspS+AraAUePCKrSVtPLFj/F88w==}
@@ -6009,25 +5997,19 @@ snapshots:
     dependencies:
       '@netlify/runtime-utils': 2.3.0
 
-  '@netlify/config@25.2.6':
+  '@netlify/config@25.6.2':
     dependencies:
       '@netlify/api': 15.1.6
       '@netlify/headers-parser': 10.1.1
       '@netlify/redirect-parser': 16.1.1
-      chalk: 6.0.0
       cron-parser: 5.10.1
       deepmerge: 4.3.1
       dot-prop: 9.0.0
       execa: 8.0.1
       fast-safe-stringify: 2.1.1
       figures: 6.1.0
-      filter-obj: 6.1.0
       find-up: 7.0.0
       indent-string: 5.0.0
-      is-plain-obj: 4.1.0
-      map-obj: 5.0.2
-      p-locate: 6.0.0
-      path-type: 6.0.0
       read-package-up: 11.0.0
       smol-toml: 1.9.1
       tomlify-j0.4: 3.0.0
@@ -6076,7 +6058,7 @@ snapshots:
     dependencies:
       '@netlify/ai': 0.4.4
       '@netlify/blobs': 10.7.13(supports-color@7.2.0)
-      '@netlify/config': 25.2.6
+      '@netlify/config': 25.6.2
       '@netlify/database-dev': 0.10.1
       '@netlify/dev-utils': 5.0.0
       '@netlify/edge-functions-dev': 1.0.24
@@ -7466,8 +7448,6 @@ snapshots:
     dependencies:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
-
-  chalk@6.0.0: {}
 
   character-entities-html4@2.1.0: {}
 
@@ -9116,8 +9096,6 @@ snapshots:
       '@babel/types': 7.29.11
       source-map-js: 1.2.2
 
-  map-obj@5.0.2: {}
-
   markdown-extensions@2.0.0: {}
 
   markdown-it@14.3.3:
@@ -9924,8 +9902,6 @@ snapshots:
     dependencies:
       lru-cache: 11.5.3
       minipass: 7.1.3
-
-  path-type@6.0.0: {}
 
   pathe@2.0.3: {}
 
